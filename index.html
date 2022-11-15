@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shop site</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js" defer></script>
+        <script src="jquery.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="top-header-con">
+                <div class="top-header">
+                    <div class="top-header-left-link">
+                        <div><i class="fas fa-phone-alt"></i><a href="tel:+995577209404">+995 577 20 94 04</a></div>
+                        <div><i class="far fa-envelope"></i><a href="mailto:chiqovani.nika01@gmail.com">chiqovani.nika01@gmail.com</a></div>
+                        <div><i class="fas fa-map-marker-alt"></i><a href="#">Tbilisi</a></div>
+                    </div>
+                    <div class="top-header-right-link">
+                        <div><i class="fas fa-dollar-sign"></i><button class="usd-button">USD</button></div>
+                        <div><i class="fas fa-user"></i><a href="">My Account</a></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bot-header-con">
+                <div class="bot-header">
+                    <!-- site name -->
+                    <div class="bot-header-inner">
+                        <img src="./icon/sitename.png" alt="site name">
+                    </div>
+
+                    <!-- search  -->
+                    <div class="bot-header-inner">
+                        <div class="search-con">
+                            <input type="text" placeholder="Search Here">
+                            <div class="search-button">Search</div>
+                        </div>
+                    </div>
+
+                    <!-- buttons  -->
+                    <div class="bot-header-inner">
+                        <div class="bot-inner-but">
+                            <a href="">
+                                <i class="far fa-heart"></i><br>
+                                <span>Your Wishlist</span>
+                            </a>
+                            <div class="wishnum">0</div>
+                        </div>
+                        <div class="bot-inner-but">
+                            <a href="">
+                                <i class="fas fa-shopping-cart"></i><br>
+                                <span>Your Cart</span>
+                            </a>
+                            <div class="wishnum">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-bar-header-button"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+        <div class="nav-bar-con">
+            <div class="nav-bar-inner-con">
+                <div class="nav-bar-buttons"><a href="">Home</a></div>
+                <div class="nav-bar-buttons"><a href="">Hot Deals</a></div>
+                <div class="nav-bar-buttons"><a href="">Categories</a></div>
+                <div class="nav-bar-buttons"><a href="">Laptops</a></div>
+                <div class="nav-bar-buttons"><a href="">SmartPhones</a></div>
+                <div class="nav-bar-buttons"><a href="">Cameras</a></div>
+                <div class="nav-bar-buttons"><a href="">Accessories</a></div>
+            </div>
+        </div>
+
+        <div class="site-display">
+            <div class="top-three-collection-con">
+                <div class="top-three-collection">
+                    <img src="./ProductImg/product01.png" alt="img">
+                    <div class="collection-title-con">
+                        <h3>Laptop<br>Collection</h3>
+                        <a href="#">SHOP NOW <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <div class="top-three-collection">
+                    <img src="./ProductImg/product02.png" alt="img">
+                    <div class="collection-title-con">
+                        <h3>Accessories<br>Collection</h3>
+                        <a href="#">SHOP NOW <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <div class="top-three-collection">
+                    <img src="./ProductImg/camera.png" alt="img">
+                    <div class="collection-title-con">
+                        <h3>Cameras<br>Collection</h3>
+                        <a href="#">SHOP NOW <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="new-product-con">
+                <div class="new-product-move-and-name">
+                    <h3 class="new-product-con-title">NEW PRODUCTS</h3>
+                    <div class="NP-but-con">
+                        <button class="NP-left"><i class="fas fa-chevron-left"></i></button>
+                        <button class="NP-right"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="new-product-slide-con">
+                    <div class="slide-con-inner">
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product01.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="#">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product02.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product03.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product04.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product05.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product06.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product01.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product02.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product03.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-product-slide">
+                            <img src="./ProductImg/product04.png" alt="img">
+                            <div class="product-slide-description">
+                                <div class="new-product-link"><a href="">PRODUCT NAME GOES HERE</a></div>
+                                <div class="product-price">1250 $</div>
+                                <div class="star-con">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="psi-button-con">
+                                    <button><i class="far fa-heart"></i></button>
+                                    <button><i class="fas fa-exchange-alt"></i></button>
+                                    <button><i class="fas fa-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <div class="hot-deal-box">
+            <div class="hot-deal-con">
+                <h2>HOT DEAL THIS WEEK</h2>
+                <p>NEW COLLECTION UP TO 50% OFF</p>
+                <button>SHOP NOW</button>
+            </div>
+
+        </div>
+        <div class="site-display">
+            <div class="multi-box-con">
+                <div class="multi-box-left">
+                    <div class="multi-box-top1">
+                        <a href="#">
+                            <span>1999$</span>
+                            <img src="./ProductImg/BestPC.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="multi-box-bot1">
+                        <ul>
+                            <li><span>Graphics Card Model:</span> <span>RTX3050</span></li>
+                            <li><span>CPU Brand/Model:</span> <span>AMD Ryzen 7 5800H</span></li>
+                            <li><span>RAM:</span> <span>32GB</span></li>
+                        </ul>
+                        <ul>
+                            <li><span>Hard Drive Capacity:</span> <span>512GB</span></li>
+                            <li><span>Hard Drive Type:</span> <span>SSD</span></li>
+                            <li><span>Screen Refresh Rate:</span> <span>120Hz</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="multi-box-right">
+                    <div class="multi-box-top2">
+                        <a href="#">
+                            <img src="./ProductImg/bestLaptop.jpg" alt="Laptop">
+                        </a>
+                        <ul class="top2-inner-con">
+                            <li><a href=""><span>monitors</span><span>57</span></a></li>
+                            <li><a href=""><span>printers</span><span>43</span></a></li>
+                            <li><a href=""><span>pc components</span><span>98</span></a></li>
+                            <li><a href=""><span>Smartphone Accessories</span><span>77</span></a></li>
+                            <li><a href=""><span>pc Accessories</span><span>35</span></a></li>
+                            <li><a href=""><span>game consoles</span><span>107</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="multi-box-bot2">
+                        <a href="#">
+                            <img src="./ProductImg/bestCamera.jpg" alt="Laptop">
+                        </a>
+                        <ul class="bot2-inner-con">
+                            <li><a href=""><span>Digital Cameras</span><span>15</span></a></li>
+                            <li><a href=""><span>Tripods</span><span>31</span></a></li>
+                            <li><a href=""><span>camera lenses</span><span>97</span></a></li>
+                            <li><a href=""><span>gopro cameras</span><span>117</span></a></li>
+                            <li><a href=""><span>razer ring lights</span><span>101</span></a></li>
+                            <li><a href=""><span>Camera Bags & Cases</span><span>86</span></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                
+            </div>
+            <div class="message-big-con">
+                <div class="message-con">
+                    <h3>Send a Message</h3>
+                    <div class="first-and-last-name">
+                        <div class="first-name"><input type="text" spellcheck="false" required><span>First Name</span></div>
+                        <div class="last-name"><input type="text" spellcheck="false" required><span>Last Name</span></div>
+
+                    </div>
+                    <div class="email-and-number">
+                        <div class="email-adr"><input type="text" spellcheck="false" required><span>Email Address</span></div>
+                        <div class="mobile-num"><input type="text" spellcheck="false" required><span>Mobile Number</span></div>
+                    </div>
+                    <form class="message-text">
+                        <textarea type="text" spellcheck="false" required></textarea><span>Write your message here...</span>
+
+                    </form>
+                    <button class="send-message">Send</button>
+                    
+                </div>
+
+                <div class="contact-info">
+                    <h3>contact info</h3>
+                    <div class="info-inner">
+                        <div><i class="fas fa-phone-alt"></i><a href="https://www.linkedin.com/in/nika-chiqovani-741787256/">Nika Chiqovani</a></div>
+                        <div><i class="far fa-envelope"></i><a href="mailto:chiqovani.nika01@gmail.com">chiqovani.nika01@gmail.com</a></div>
+                        <div><i class="fas fa-map-marker-alt"></i><a href="#">Tbilisi</a></div>
+                    </div>
+                    <div class="social-con">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+        
+        <div class="site-footer">
+                <div class="footer-payment">
+                    <a href="#"><i class="fab fa-cc-visa"></i></a>
+                    <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                    <a href="#"><i class="fab fa-cc-amazon-pay"></i></a>
+                    <a href="#"><i class="fab fa-cc-amex"></i></a>
+                </div>
+                <h4 class="footer-about">Created By : Nika Chiqovani <i class="far fa-copyright"></i> 2022</h4>
+
+        </div>
+    </body>
+</html>
